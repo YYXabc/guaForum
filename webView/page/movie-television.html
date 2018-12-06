@@ -1,0 +1,29 @@
+
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/navigation-bar-css.css">
+    <link rel="stylesheet" href="../../css/page-css.css">
+    <script src="../../js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <my-navigation-bar></my-navigation-bar>
+    <my-spain-la-liga>
+        <side-navigation-bar slot="side-navigation-bar"></side-navigation-bar>
+        <subject-theme slot="subject-theme"></subject-theme>
+    </my-spain-la-liga>
+    <my-index-footer></my-index-footer>
+</div>
+<script src="../../js/vueNavigationBar.js"></script>
+<script src="../../js/vueIndex.js"></script>
+<script src="../../js/vueSpainLaLiga.js"></script>
+</body>
+</html>
+<?php include "/../../phpServer/isLoginState.php"; $a = new isLoginState(); $a->updateNavState(); ?>

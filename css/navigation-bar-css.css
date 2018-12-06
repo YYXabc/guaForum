@@ -1,0 +1,26 @@
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 10px;
+    height: 7%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#my-navigation-bar {
+    padding-left: 200px;
+    background: #ffffff;
+    box-shadow: 0 5px 5px rgb(192,192,192);
+    font-size: 120%;
+    font-weight: bold;
+}
+#my-navigation-bar .navigation-login {
+    color: blue;
+}
+#my-navigation-bar #navigation-title {
+    font-family: Monospace;
+}
+#off-button {
+    color: rgb(234,111,90);
+}

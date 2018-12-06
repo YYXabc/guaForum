@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+}
+.body .body-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(181,0,0);
+}
+.body .body-top a {
+    padding: 5px;
+    background: rgb(248,249,250);
+    border: 1px solid rgb(235,239,241);
+    color: rgb(68,68,68);
+    margin-left: 1px ;
+}
+.body .body-top input {
+    margin-left: 10px;
+    width: 100px;
+}
+.body .body-top button{
+    color: #ffffff;
+    background: rgb(181,0,0);
+    border: none;
+    border-radius: 3px;
+    height: 28px;
+    margin-left: 1px;
+}
+
+.body .body-center {
+    margin-top: 10px;
+    border: 1px solid rgb(170,170,170);
+    padding: 15px;
+}
+.body .body-center .body-center-title {
+    font-size: 130%;
+    font-weight: 800;
+}
+.body .body-center .body-center-main {
+    margin-top: 10px;
+    background: rgb(241,241,241);
+    border-top: 1px solid rgb(187,187,187);
+    border-bottom: 1px solid rgb(187,187,187);
+    padding: 15px 20px;
+}
+.body .body-center .body-center-main .body-center-main-message{
+    border-bottom: 1px dashed rgb(187,187,187);
+    font-size: 70%;
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.body .body-center .body-center-main .body-center-main-message .body-center-main-message-name {
+    color: rgb(0,0,255);
+    margin-right: 5px;
+}
+.body .body-center .body-center-main .body-center-main-message .body-center-main-message-time {
+    color: rgb(187,187,187);
+}
+
+.body .body-center .body-center-main .body-center-main-title {
+    display: flex;
+    margin-bottom: 20px;
+}
+.body .body-center .body-center-main .body-center-main-title .body-center-main-title-title {
+    margin-right: 10px;
+}
+.body .body-center .body-center-main .body-center-main-title .body-center-main-title-message {
+    color: rgb(187,187,187);
+}
+.body .body-center .body-center-reply {
+    border-top: 1px solid rgb(187,187,187);
+    border-bottom: 1px solid rgb(187,187,187);
+    background: rgb(241,241,241);
+    padding: 15px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.body .body-center .body-center-reply .body-center-reply-message {
+    border-bottom: 1px dashed rgb(187,187,187);
+    font-size: 70%;
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.body .body-center .body-center-reply .body-center-reply-message .body-center-reply-message-name {
+    color: rgb(0,0,255);
+    margin-right: 5px;
+}
+.body .body-center .body-center-reply .body-center-reply-message .body-center-reply-message-time {
+    color: rgb(187,187,187);
+}
+.body .body-center .body-center-reply .body-center-reply-message .body-center-reply-message-count {
+    margin-left: 40px;
+    color: rgb(187,187,187);
+}
+
+.bottom-navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(170,170,170);
+    border-top: 0 ;
+    box-shadow: 0 0 0 1px rgb(229,229,229);
+    min-width: 800px;
+
+}
+.bottom-navigation-bar a {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 3px;
+}
+.bottom-navigation-bar a:hover {
+    background: rgb(181,0,0);
+    border: 1px solid rgb(181,0,0);
+    color: #ffffff;
+}
+.bottom-navigation-bar input {
+    width: 45px;
+}
+.bottom-navigation-bar span {
+    margin-right: 6px;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.bottom-navigation-bar #jump-page {
+    border:1px solid rgb(181,0,0);
+    background: rgb(181,0,0);
+    outline-color:rgb(181,0,0) ;
+    margin-left: 10px;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgb(181,0,0);
+    border-radius: 3px;
+}
+.submit {
+    margin-bottom: 150px;
+    border: 1px solid rgb(170,170,170);
+    border-top: 0;
+    min-width: 800px;
+    padding: 15px;
+}
+.submit .submit-reply {
+    padding: 30px;
+    background: rgb(244,244,254);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.submit .submit-reply textarea {
+    resize: none;
+    width: 100%;
+}
+.submit .submit-reply button {
+    margin-top: 10px;
+    border:1px solid rgb(181,0,0);
+    background: rgb(181,0,0);
+    outline-color:rgb(181,0,0) ;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgb(181,0,0);
+    border-radius: 3px;
+}

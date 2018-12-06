@@ -1,0 +1,102 @@
+body {
+    background: rgb(218,237,250);
+}
+
+.my-login-father {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-login-father .my-login {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #ffffff;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.my-login-father .my-login .login-title{
+    font-size: 150%;
+    color: rgb(234,111,90);
+    text-decoration: underline
+}
+.my-login-father .my-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 400px;
+}
+.my-login-father .my-input input {
+    outline: none;
+    border: 1px solid rgb(200,200,200);
+    background: rgb(248,248,248);
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+}
+.my-login-father .my-input .input-1 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+.my-login-father .my-input .input-2 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.my-login-father .my-input .input-3 {
+    border-radius: 0;
+    border-bottom: 0;
+}
+.my-login-father .my-login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0;
+    width: 400px;
+    background: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.my-login-father .my-login-button button {
+    border:0;
+    outline: none;
+    background: rgb(49,148,208);
+    width:300px;
+    padding: 7px 0;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 150%;
+}
+.my-login-father .my-login-button .register-button {
+    background: rgb(66,192,46);
+}
+.my-login-father .my-login-button .register-button:hover {
+    background: #339933;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.my-login-father .my-login-button button:hover {
+    background: rgb(24,124,183);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.my-login-father .my-login-error {
+    margin-top: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(222,83,58);
+    color: rgb(222,83,58);
+    font-weight: 700;
+    font-size: 120%;
+    width:300px;
+    background: #ffffff;
+    padding:10px;
+}
+
+.test {
+    font-size: 150%;
+}
